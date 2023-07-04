@@ -1,13 +1,5 @@
 <template>
 
-    <div>
-
-        <button class="nav-btn" :class="{ 'active-link' : pageNum === currentPage}" v-for="pageNum in totalPages" :key="pageNum" @click="switchPage(pageNum)">
-            {{ pageNum }}
-        </button>
-        
-    </div>
-
     <ul class="employee-list">
 
         <li v-for="employee in employees" :key="employee.id">
@@ -20,7 +12,13 @@
 
     </ul>
 
-    
+    <div>
+
+        <button class="nav-btn" :class="{ 'active-link' : pageNum === currentPage}" v-for="pageNum in totalPages" :key="pageNum" @click="switchPage(pageNum)">
+            {{ pageNum }}
+        </button>
+
+    </div>
 
     <div v-if="showModal" >
         <ModalWindow @close="toggleModal"/>
