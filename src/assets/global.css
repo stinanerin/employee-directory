@@ -1,0 +1,8 @@
+:root {
+    --grey-200: #f2f1f2;
+
+    
+    --text-clr: var(--primary-color);
+    --background-clr: var(--grey-200);
+  
+}
