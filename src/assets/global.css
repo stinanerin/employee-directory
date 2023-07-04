@@ -1,8 +1,12 @@
 :root {
     --grey-200: #f2f1f2;
 
+    --white: #fff;
+
     
     --text-clr: var(--primary-color);
-    --background-clr: var(--grey-200);
+    --pri-bg-clr: var(--white);
+    --sec-bg-clr: var(--grey-200);
+    /* --ter-bg-clr: var(--grey-200); */
   
 }
