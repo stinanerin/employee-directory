@@ -3,8 +3,10 @@
 
     --white: #fff;
 
+    --primary-600: #2c3e50;
+
     
-    --text-clr: var(--primary-color);
+    --text-clr: var(--primary-600);
     --pri-bg-clr: var(--white);
     --sec-bg-clr: var(--grey-200);
     /* --ter-bg-clr: var(--grey-200); */

@@ -23,7 +23,8 @@ export default {
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
-  color: #2c3e50;
+  color: var(--text-clr);
   margin-top: 60px;
+  text-align: center;
 }
 </style>
