@@ -78,10 +78,6 @@
 
 <style>
 
-    /* * {
-        outline: 1px solid pink;
-    } */
-
     .employee-list {
         display:flex;
         justify-content: center;
@@ -112,6 +108,7 @@
         border: none;
         padding: 0.5rem;
         margin: 0 0.5rem;
+        color: var(--text-clr);
     }
     .nav-btn:hover {
         font-weight: bold;
